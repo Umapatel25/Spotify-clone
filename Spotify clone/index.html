@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+       
+       <div class="songlist">
+        <h1>Best of Blackpink- No Copyright Sounds</h1>
+        <div>
+            <div id="songItem">
+                <img src="cover1.jpg" alt="1">
+                <span class="songname">Shut down</span>
+                <span id="songlistplay"><span class="timespent">03:15</span><i id="1" class="fa-regular songItemplay fa-circle-play"></i></span>
+            </div>
+            <div id="songItem">
+                <img src="cover2.jfif" alt="1">
+                <span class="songname">Pink venom</span>
+                <span id="songlistplay"><span class="timespent">03:40</span><i id="2" class="fa-regular songItemplay fa-circle-play"></i></span>
+            </div>
+            <div id="songItem">
+                <img src="cover3.jfif" alt="1">
+                <span class="songname">Kill this Love</span>
+                <span id="songlistplay"><span class="timespent">03:20</span><i id="3" class="fa-regular songItemplay fa-circle-play"></i></span>
+            </div>
+            <div id="songItem">
+                <img src="cover4.jfif" alt="1">
+                <span class="songname">Boombayah</span>
+                <span id="songlistplay"><span class="timespent">04:15</span><i id="4" class="fa-regular songItemplay fa-circle-play"></i></span>
+            </div>
+            <div id="songItem">
+                <img src="cover5.jfif" alt="1">
+                <span class="songname">Ice-cream</span>
+                <span id="songlistplay"><span class="timespent">03:15</span><i id="5" class="fa-regular songItemplay fa-circle-play"></i></span>
+            </div>
+        </div>
+       </div>
+       <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogress" min=0 value=0 max='100'>
+        <div class="icons">
+            <i class="fa-sharp fa-2x fa-solid fa-backward" id="previous"></i>
+            <i class="fa-regular fa-2x fa-circle-play" id="masterplay"></i>
+            <i class="fa-sharp fa-2x fa-solid fa-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+             <img src="playing.gif" width="40px" id="gif"><span id="mastersongname">Shut down - Blackpink</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/9ff65eed95.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
